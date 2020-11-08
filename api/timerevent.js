@@ -61,33 +61,6 @@ function scheduleCronstyle() {
   
 scheduleCronstyle()
 
-async function testAsync() {
-    return "hello async";
-}
-
-const result = testAsync();
-// console.log(result);
-testAsync().then(v => {
-    // console.log(v);    // 输出 hello async
-});
-
-function getSomething() {
-    return "something";
-}
-
-async function testasync() {
-    return Promise.resolve("hello async");
-}
-
-async function test() {
-    const v1 = await getSomething();
-    const v2 = await testasync();
-    console.log('v1:',v1)
-    console.log(v1, v2);
-}
-
-// test()
-
 
 async function sendEmail (mailOptions) {
     try {
