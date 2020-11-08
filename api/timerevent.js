@@ -99,10 +99,8 @@ async function sendEmail (mailOptions) {
             secure: true,
             service: 'qq',
             auth: {
-                // user: '2311491587@qq.com',
-                // pass: 'lsgdnfxyoaiwdica'
-                user: '3287990296@qq.com',
-                pass: 'qnpoeddcwrwdcihi'
+                user: 'xxxxx@qq.com',
+                pass: 'xxxxx'
             }
         })
         // 封装成对象
